@@ -1,0 +1,135 @@
+body{
+    box-sizing: border-box;
+     background: url('pic/color2.jpg');
+    margin: 0;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.border-left{
+    border: 0 solid;
+    box-shadow: 0 0 30px white;
+    width: 50%;
+    margin-left: 24%;
+    margin-bottom: 20px;
+}
+.border-left img{
+    width: 90%;
+    height: 600px;
+    margin-left: 37.5px;
+}
+.border-left h1{
+    text-align: center;
+    font-family: Khmer OS Battambang;
+    color:white;
+}
+.border-left p{
+    font-family: Khmer OS Battambang;
+    width: 90%;
+    text-align: justify;
+    color:white;
+    margin-left: 37.5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    font-family: Franklin Gothic Book;
+    color:white;
+}
+.footer-left{
+    margin-left: 5%;
+    text-align: justify;
+    width: 35%;
+    line-height: 25px;
+}
+.footer-left h1{
+    text-align: center;
+}
+.footer-mid{
+    width: 15%;
+    line-height: 60px;
+}
+.footer-mid i img{
+    width: 30px;
+}
+.footer-mid p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+.footer-right{
+    width: 16%;
+    line-height: 60px;
+}
+.footer-right i img{
+    width: 30px;
+}
+.footer-right p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+@media (max-width: 992px) {
+    .border-left {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .border-left img {
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .border-left p {
+        margin-left: 5%;
+    }
+
+    .footer-left, .footer-mid, .footer-right {
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    .footer-mid p,
+    .footer-right p {
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+}
+@media (max-width: 600px) {
+    .border-left {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .border-left img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .border-left p {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-left,
+    .footer-mid,
+    .footer-right {
+        width: 100%;
+        margin: 10px 0;
+        line-height: normal;
+    }
+
+    .footer-mid p,
+    .footer-right p {
+        margin-left: 40px;
+        margin-top: -40px;
+    }
+}

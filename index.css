@@ -1,0 +1,530 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background: url('pic/color2.jpg');
+    margin: 0;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    background: url('pic/best-personal-development-books-1.jpg');
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    font-family: Franklin Gothic Book;
+}
+.head img{
+    width: 130px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.menu{
+    box-shadow: 0 0 40px black;
+    font-family: Franklin Gothic Book;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    width: 70%;
+}
+ul li{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li img{
+    width: 20px;
+}
+ul li span{
+    color: white;
+}
+.content{
+    font-family: Franklin Gothic Book;
+    font-size: 3rem;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.mid-nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Franklin Gothic Book;
+    font-family: Khmer OS Battambang;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 4%;
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+.mid-nav a{
+    color: black;
+}
+.border-left{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+}
+.border-left img{
+    width: 450px;
+}
+.border-left img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.border-left a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.border-left p{
+    margin-top: 5px;
+}
+.border-left a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.border-left a p:hover{
+    color: white;
+    background-color: black;
+}
+.mid{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.mid img{
+    width: 450px;
+}
+.mid img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.mid a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.mid p{
+    margin-top: 5px;
+}
+.mid a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mid a p:hover{
+    color: white;
+    background-color: black;
+}
+.border-right{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.border-right img{
+    width: 450px;
+}
+.border-right img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.border-right a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.border-right p{
+    margin-top: 5px;
+}
+.border-right a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.border-right a p:hover{
+    color: white;
+    background-color: black;
+}
+.story{
+    width: 90%;
+    display: flex;
+    font-family: Franklin Gothic Book;
+    font-family: Khmer OS Battambang;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 4%;
+    text-align: center;
+    align-content: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.story a{
+    color:black;
+}
+.story-left{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+}
+.story-left img{
+    width: 450px;
+}
+.story-left img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.story-left a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.story-left p{
+    margin-top: 5px;
+}
+.story-left a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.story-left a p:hover{
+    color: white;
+    background-color: black;
+}
+.story-mid{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.story-mid img{
+    width: 450px;
+}
+.story-mid img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.story-mid a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.story-mid p{
+    margin-top: 5px;
+}
+.story-mid a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.story-mid a p:hover{
+    color: white;
+    background-color: black;
+}
+.story-right{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.story-right img{
+    width: 450px;
+}
+.story-right img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.story-right a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.story-right p{
+    margin-top: 5px;
+}
+.story-right a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.story-right a p:hover{
+    color: white;
+    background-color: black;
+}
+.content{
+    font-family: Franklin Gothic Book;
+    font-size: 3rem;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.mid2{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mid_left2 img{
+    width: 70%;
+    height: 700px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 130px;
+}
+.mid_left2 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+#typing-text{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: -60px;
+}
+.mid_right2{
+    box-sizing: border-box;
+}
+.text{
+    font-weight: bold;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: -60px;
+    line-height: 40px;
+    width: 90%;
+    margin-top: 200px;
+}
+.text span{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: white;
+}
+.text span:hover{
+    color: black;
+}
+.text:hover{
+    transition: 0.5s;
+    color: white;
+}
+.mid1{
+    width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+}
+.mid_left1 img{
+    width: 90%;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 75px;
+}
+.mid_left1 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.mid_right1 p{
+    width: 90%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Khmer OS Battambang;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+.mid_right1 p:hover{
+    transition: 0.5s;
+    color: white;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    font-family: Franklin Gothic Book;
+    color:white;
+}
+.footer-left{
+    margin-left: 5%;
+    text-align: justify;
+    width: 35%;
+    line-height: 25px;
+}
+.footer-left h1{
+    text-align: center;
+}
+.footer-mid{
+    width: 15%;
+    line-height: 60px;
+}
+.footer-mid i img{
+    width: 30px;
+}
+.footer-mid p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+.footer-right{
+    width: 16%;
+    line-height: 60px;
+}
+.footer-right i img{
+    width: 30px;
+}
+.footer-right p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+/* Tablet View (width ≤ 1024px) */
+@media screen and (max-width: 1024px) {
+    .head {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .head img {
+        margin: 10px auto;
+    }
+    ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .mid-nav,
+    .story {
+        flex-direction: column;
+        align-items: center;
+    }
+    .border-left, .mid, .border-right,
+    .story-left, .story-mid, .story-right {
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 90%;
+        height: auto;
+    }
+    .border-left img,
+    .mid img,
+    .border-right img,
+    .story-left img,
+    .story-mid img,
+    .story-right img {
+        width: 100%;
+    }
+    .mid2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mid_left2 img {
+        width: 90%;
+        margin-left: 0;
+        height: auto;
+    }
+    .mid_right2 .text {
+        margin-left: 0;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .mid1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mid_left1 img {
+        width: 90%;
+        margin-left: 0;
+        height: auto;
+    }
+    .mid_right1 p {
+        width: 90%;
+        margin-left: 0;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-left, .footer-mid, .footer-right {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #typing-text {
+        font-size: 2rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .text span {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 0;
+        width: 95%;
+    }
+    ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .footer-mid p,
+    .footer-right p {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}

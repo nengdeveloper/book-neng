@@ -1,0 +1,465 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Franklin Gothic Book;
+}
+section{
+    background: url('pic/color2.jpg');
+    margin: 0;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    background: url('pic/best-personal-development-books-1.jpg');
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    font-family: Franklin Gothic Book;
+}
+.head img{
+    width: 130px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.menu{
+    box-shadow: 0 0 40px black;
+    font-family: Franklin Gothic Book;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    width: 70%;
+}
+ul li{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li img{
+    width: 20px;
+}
+ul li span{
+    color: white;
+}
+.content{
+    font-family: Franklin Gothic Book;
+    font-size: 3rem;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+    color: white;
+}
+.mid-nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Franklin Gothic Book;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 4%;
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+.mid-nav a{
+    color: black;
+}
+.border-left{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+}
+.border-left img{
+    width: 450px;
+}
+.border-left img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.border-left a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.border-left p{
+    margin-top: 5px;
+    font-family: Khmer OS Battambang;
+}
+.border-left a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.border-left a p:hover{
+    color: white;
+    background-color: black;
+}
+.border-left p a{
+    font-family: Khmer OS Battambang;
+}
+.mid{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.mid img{
+    width: 450px;
+}
+.mid img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.mid a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.mid p{
+    margin-top: 5px;
+    font-family: Khmer OS Battambang;
+}
+.mid a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mid a p:hover{
+    color: white;
+    background-color: black;
+}
+.mid p a{
+    font-family: Khmer OS Battambang;
+}
+.border-right{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.border-right img{
+    width: 450px;
+}
+.border-right img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.border-right a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.border-right p{
+    margin-top: 5px;
+    font-family: Khmer OS Battambang;
+}
+.border-right a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.border-right a p:hover{
+    color: white;
+    background-color: black;
+}
+.border-right p a{
+    font-family: Khmer OS Battambang;
+}
+.story{
+    width: 90%;
+    display: flex;
+    font-family: Franklin Gothic Book;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 4%;
+    text-align: center;
+    align-content: center;
+    color: black
+}
+.story a{
+    color:black;
+}
+.story-left{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+}
+.story-left img{
+    width: 450px;
+}
+.story-left img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.story-left a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.story-left p{
+    margin-top: 5px;
+    font-family: Khmer OS Battambang;
+}
+.story-left p a{
+    font-family: Khmer OS Battambang;
+}
+.story-left a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.story-left a p:hover{
+    color: white;
+    background-color: black;
+}
+.story-mid{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.story-mid img{
+    width: 450px;
+}
+.story-mid img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.story-mid a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.story-mid p{
+    margin-top: 5px;
+    font-family: Khmer OS Battambang;
+}
+.story-mid p a{
+    font-family: Khmer OS Battambang;
+}
+.story-mid a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.story-mid a p:hover{
+    color: white;
+    background-color: black;
+}
+.story-right{
+    border: none;
+    box-shadow: 0 0 5px black;
+    height: 570px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.story-right img{
+    width: 450px;
+}
+.story-right img:hover{
+    transform: scale(1.07);
+    transition: 0.3;
+}
+.story-right a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.story-right p{
+    margin-top: 5px;
+    font-family: Khmer OS Battambang;
+}
+.story-right p a{
+    font-family: Khmer OS Battambang;
+}
+.story-right a p{
+    box-shadow: 0 0 10px black;
+    border-radius: 3px;
+    width: 200px;
+    margin-left: 122.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.story-right a p:hover{
+    color: white;
+    background-color: black;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    font-family: Franklin Gothic Book;
+    color:white;
+}
+.footer-left{
+    margin-left: 5%;
+    text-align: justify;
+    width: 35%;
+    line-height: 25px;
+}
+.footer-left h1{
+    text-align: center;
+}
+.footer-mid{
+    width: 15%;
+    line-height: 60px;
+}
+.footer-mid i img{
+    width: 30px;
+}
+.footer-mid p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+.footer-right{
+    width: 16%;
+    line-height: 60px;
+}
+.footer-right i img{
+    width: 30px;
+}
+.footer-right p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+@media screen and (max-width: 1024px) {
+    .mid-nav,
+    .story,
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .border-left,
+    .mid,
+    .border-right,
+    .story-left,
+    .story-mid,
+    .story-right {
+        width: 90%;
+        margin: 15px auto;
+        height: auto;
+    }
+
+    .border-left img,
+    .mid img,
+    .border-right img,
+    .story-left img,
+    .story-mid img,
+    .story-right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .border-left a p,
+    .mid a p,
+    .border-right a p,
+    .story-left a p,
+    .story-mid a p,
+    .story-right a p {
+        margin: 15px auto;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    ul li {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .head {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .head img {
+        margin: 10px auto;
+    }
+
+    .footer-left,
+    .footer-mid,
+    .footer-right {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    .border-left a p,
+    .mid a p,
+    .border-right a p,
+    .story-left a p,
+    .story-mid a p,
+    .story-right a p {
+        width: 90%;
+    }
+
+    .footer-left h1 {
+        font-size: 1.3rem;
+    }
+
+    .footer-mid i img,
+    .footer-right i img {
+        width: 25px;
+    }
+
+    .footer-mid p,
+    .footer-right p {
+        margin-top: 5px;
+        margin-left: 0;
+        font-size: 14px;
+    }
+}

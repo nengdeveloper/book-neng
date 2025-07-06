@@ -1,0 +1,329 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Franklin Gothic Book;
+}
+section{
+    background: url('pic/color2.jpg');
+    margin: 0;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    background: url('pic/best-personal-development-books-1.jpg');
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    font-family: Franklin Gothic Book;
+}
+.head img{
+    width: 130px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.menu{
+    box-shadow: 0 0 40px black;
+    font-family: Franklin Gothic Book;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    width: 70%;
+}
+ul li{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li img{
+    width: 20px;
+}
+ul li span{
+    color: white;
+}
+.mid{
+    color: black;
+    align-content: center;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 20px black;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 36%;
+    height: 400px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.mid h1{
+    font-weight: bold;
+}
+.mid-1{
+    display: flex;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mid-left input{
+    margin-left: -25px;
+    text-align: center;
+    height: 30px;
+}
+.mid-left label{
+    margin-left: -20px;
+}
+.mid-right input{
+    margin-left: 10px;
+    text-align: center;
+    height: 30px;
+}
+.mid-right label{
+    margin-left: 25px;
+}
+.mid-2{
+    display: flex;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mid-left1 label{
+    margin-left: -20px;
+}
+.mid-left1 input{
+    margin-left: -25px;
+    text-align: center;
+    height: 30px;
+}
+.mid-right1 label{
+    margin-left: 25px;
+}
+.mid-right1 input{
+    margin-left: 10px;
+    text-align: center;
+    height: 30px;
+}
+.title{
+    margin-top: 20px;
+}
+.title input{
+    text-align: center;
+    height: 30px;
+    width: 350px;
+}
+.title label{
+    margin-left: 10px;
+}
+.sub{
+    text-align: center;
+    box-sizing: border-box;
+}
+.sub button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sub button:hover{
+    transform: scale(1.08);
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+.btn{
+    text-align: center;
+    box-sizing: border-box;
+}
+.btn button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn button:hover{
+    transform: scale(1.08);
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+.map-container h2{
+    font-size: 1.5rem;
+    width: 350px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+}
+.map-container h2 img{
+    width: 30px;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    font-family: Franklin Gothic Book;
+    color:white;
+}
+.footer-left{
+    margin-left: 5%;
+    text-align: justify;
+    width: 35%;
+    line-height: 25px;
+}
+.footer-left h1{
+    text-align: center;
+}
+.footer-mid{
+    width: 15%;
+    line-height: 60px;
+}
+.footer-mid i img{
+    width: 30px;
+}
+.footer-mid p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+.footer-right{
+    width: 16%;
+    line-height: 60px;
+}
+.footer-right i img{
+    width: 30px;
+}
+.footer-right p{
+    margin-left: 40px;
+    margin-top: -70px;
+}
+@media screen and (max-width: 1024px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .head img {
+        margin: 20px auto;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    ul li {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .mid {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .mid-1,
+    .mid-2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .mid-left,
+    .mid-right,
+    .mid-left1,
+    .mid-right1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .title input {
+        width: 90%;
+    }
+
+    .map-container h2 {
+        width: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-mid,
+    .footer-right {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer-mid p,
+    .footer-right p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .head img {
+        width: 100px;
+        height: 90px;
+        margin-top: 15px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    .mid {
+        width: 90%;
+    }
+
+    .sub button,
+    .btn button {
+        width: 120px;
+        font-size: 1.2rem;
+    }
+
+    .title input {
+        width: 95%;
+    }
+
+    .map-container h2 {
+        font-size: 1.2rem;
+        width: 95%;
+    }
+
+    .map-container h2 img {
+        width: 25px;
+    }
+
+    .footer-left h1 {
+        font-size: 1.3rem;
+    }
+
+    .footer-mid i img,
+    .footer-right i img {
+        width: 25px;
+    }
+}

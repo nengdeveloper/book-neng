@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <section>
+        <div class="head">
+            <img src="pic/logobookstore.jpg">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html"><img src="pic/logo.png"> Home</a></li>
+                <li><a href="Story.html">Story</a></li>
+                <li><a href="Study.html">Study</a></li>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content"><a href="about.html">About</a></div>
+        <div class="mid">
+            <div class="mid_left"><img src="pic/Nengpic.jpg"></div>
+            <div class="mid_right">
+                <h1 class="text">
+                    <span>Wellcome to my about me!</span><br> I am 19 years old.I study at BELTEI INTERNATIONAL UNIVERSITY CAMPUS 2 (Chaom Chao).Nowaday, I study first year and study my skill is Information Technology (IT).Because Information Technology is one skill that I love and it destroy the market in Cambodia now.It will become an important skill for national development and will further boost the technology sector in Cambodia in the future.
+                </h1>
+                <p id="typing-text"></p>
+                
+<script>
+                    const words = ["My name is NIM HUONNENG"];
+                    const typingSpeed = 100; 
+                    const erasingSpeed = 50;
+                    const delayBetweenWords = 1500;
+
+                    let wordIndex = 0;
+                    let charIndex = 0;
+                    let isDeleting = false;
+                    const typingText = document.getElementById("typing-text");
+
+                    function type() {
+                        const currentWord = words[wordIndex];
+
+                        if (!isDeleting) {
+                        typingText.textContent = currentWord.substring(0, charIndex + 1);
+                        charIndex++;
+                        if (charIndex < currentWord.length) {
+                            setTimeout(type, typingSpeed);
+                        } else {
+                            isDeleting = true;
+                            setTimeout(type, delayBetweenWords);
+                        }
+                        } else {
+                        typingText.textContent = currentWord.substring(0, charIndex - 1);
+                        charIndex--;
+                        if (charIndex > 0) {
+                            setTimeout(type, erasingSpeed);
+                        } else {
+                            isDeleting = false;
+                            wordIndex = (wordIndex + 1) % words.length;
+                            setTimeout(type, typingSpeed);
+                        }
+                        }
+                    }
+                    type(); 
+                </script>
+            </div>
+        </div>
+        <div class="mid1">
+            <div class="mid_left1"><img src="pic/labrary.jpg"></div>
+            <div class="mid_right1">
+                <p>
+                    សៀវភៅទាំងអស់នេះខ្ញុំដកស្រង់ចេញពីបណ្ណាគារបាក់ទូក ដែលនៅទីនោះសម្បូរទៅដោយសៀវភៅសម្រាប់អាន និងសៀវភៅកំណែសម្រាប់ឲសិស្សយកមកសិក្សាររៀនសូត្រត្រៀមប្រឡងគ្រប់កម្រិត។បន្ថែមនេាះទៅទៀតនៅទីនេាះមានលក់សៀវភៅគ្រប់ប្រភេទដែលអាចឲសិស្សានុសិស្សទិញយកមកសិក្សាររៀនសូត្របានគ្រប់ពេលវេលាគ្រប់ទីកន្លែង។
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <div class="footer-left">               
+                <h1>About Us</h1>
+                <p>
+                    Where fresh, You will have alot of experience when you read book that you buy from book store and get
+                    success on study or job .Then, You can take some experience to teach yourself to good student or good people in school
+                    or society.And then, You can take book that you buy from this to read to stress relief and make you happy when you read story book.
+                </p>
+                <h1>Open Hours</h1>
+                <p>Monday-Saturday:7:00 AM-9:00 PM</p>
+                <p>Sunday: 8:00 AM - 7:00 PM</p>
+            </div>
+            <div class="footer-mid">
+                <h1>Contact Us</h1>
+                <i><img src="pic/tell.png"></i><p>bookshop</p>
+                <i><img src="pic/mail.png"></i><p>bookshop@gmail.com</p>
+                <i><img src="pic/location.png"></i><p>Phnom Penh</p>
+            </div>
+            <div class="footer-right">
+                <h1>Social Media</h1>
+                <i><img src="pic/meta.png"></i><p>Neng Development</p>
+                <i><img src="pic/telegram.png"></i><p>@Huonneng111222</p>
+                <i><img src="pic/tiktok.png"></i><p>@hun.neng5</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
